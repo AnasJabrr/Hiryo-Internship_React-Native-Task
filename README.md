@@ -1,50 +1,50 @@
-# Welcome to your Expo app 👋
+# Social Mobile Application
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native mobile application built with **Expo** and **TypeScript**. This app fetches data from the GoRest API to display a feed of user posts and allows users to view post details and comments.
 
-## Get started
+## 📱 Features
 
-1. Install dependencies
+* [cite_start]**Home Screen:** Fetches and displays a list of posts from `gorest.co.in`[cite: 31].
+* [cite_start]**Post Details:** Tap any post to view the full content, user details, and a list of comments[cite: 36, 37].
+* [cite_start]**UI/UX:** Custom cards with user avatars (generated via Pravatar) and clean navigation[cite: 53].
 
-   ```bash
-   npm install
-   ```
+## 🛠 Tech Stack
 
-2. Start the app
+* [cite_start]React Native (Expo Go) [cite: 52]
+* [cite_start]TypeScript [cite: 60]
+* Expo Router (File-based routing)
 
-   ```bash
-   npx expo start
-   ```
+##  Screenshots
 
-In the output, you'll find options to open the app in a
+| Home Screen | Post Details |
+|:---:|:---:|
+| <img src="./assets/screenshots/home.jpeg" width="300" /> | <img src="./assets/screenshots/details.jpeg" width="300" /> |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+##  How to Run
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1.  **Clone the repository**
+    ```bash
+    git clone [https://github.com/AnasJabrr/Hiryo-Internship_React-Native-Task.git]
+    cd my-social-app
+    ```
 
-## Get a fresh project
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
 
-When you're ready, run:
+3.  **Start the app**
+    ```bash
+    npx expo start
+    ```
 
-```bash
-npm run reset-project
-```
+4.  **Run on Device**
+    * Scan the QR code with the **Expo Go** app (Android) or Camera app (iOS).
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## ⏱ Time Taken
 
-## Learn more
+[cite_start]**Total Time:** 6-7 hours
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+*Task completed for internship evaluation.*
